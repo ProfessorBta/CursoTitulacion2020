@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
+}
+.contenedor form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type=text],
+input[type=password],
+input[type=email]{
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #d11b1b;
+    border-radius: 4px;
+    outline: none;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus{
+    border: 1px solid #1cb850;
+}
+
+.opciones, .calculadora{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+#num1, 
+#num2, 
+label, 
+button,
+#valor1,
+#valor2,
+#resultado, 
+#operacion{
+    margin: 0 auto;
+    width: 200px;
+}
+

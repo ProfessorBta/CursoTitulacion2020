@@ -1,0 +1,24 @@
+table{
+    width:50%; 
+    border:2px solid rgb(41, 136, 180)
+}
+th{
+    font-weight: bold;
+}
+td{
+    font-size: 21px;
+}
+th,td{
+    padding: 15px;
+    border:1px solid black; /* agregar un borde solido de colore negro*/
+    text-align: center; /* centrar el texto */
+    
+}
+thead{
+    background-color: coral;
+    color: white;
+}
+tfoot{
+    background-color: teal;
+    color: white;
+}
